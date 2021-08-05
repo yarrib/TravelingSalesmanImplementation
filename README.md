@@ -66,7 +66,7 @@ Your goal is this, for the best route possible, print out the total time taken t
 
 Your output file, which should be called output2.txt would contain the following answer:
 
-abc def ghi jkl abc 16
+> abc def ghi jkl abc 16
 
 A few constraints were required on the solution below:
 
