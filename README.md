@@ -43,35 +43,35 @@ Use Java threads or Python threads. Your Runner class should be stored in a file
 
 This problem should optimize the time it takes to serve a route. There are obvious bad routes but the optimal route is not obvious. Your goal is to read in a file that gives the time in seconds to get from a building to every other building and determine the best possible route such that you start at the building listed on the first line, visit all other buildings and end at the building listed on the first line. The building names in the example below are arbitrary and can be called anything. The input file you will read in is called input2.txt and will be formatted in the following manner:
 
-BldgOne : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
-
-BldgTwo : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
-
-BldgThree : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
-
-BldgFour : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
-
-BldgFive : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
+> BldgOne : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
+>
+> BldgTwo : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
+>
+> BldgThree : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
+>
+> BldgFour : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
+>
+> BldgFive : t(BldgOne) t(BldgTwo) t(BldgThree) t(BldgFour) t(BldgFive)
 
 Take the first line for example. t(BldgTwo) will be an integer value denoting the number of seconds it takes to get from BldgOne to BldgTwo. On the first line, t(BldgOne) will be 0. In other words, it takes 0 time to get from BldgOne to BldgOne. The input will always be formatted in this manner. If another building is constructed, it will be added to the end and the file will be updated accordingly. For example, if BldgSix were constructed, the time to BldgSix will be added at the end of every list and BldgSix will be added to the end of the file. The time from BldgOne to BldgThree may not be the same as the time from BldgThree to BldgOne. There may be one way streets; it may be uphill, etc. A sample input file is shown below:
 
-abc : 0 5 7 3
-
-def : 4 0 3 6
-
-ghi : 6 4 0 4
-
-jkl : 4 5 6 0
+> abc : 0 5 7 3
+>
+> def : 4 0 3 6
+>
+> ghi : 6 4 0 4
+>
+> jkl : 4 5 6 0
 
 Each row in the sample input will start with the building ID, followed by a space, followed by a colon, followed by another space, then followed by a list of integer values to get to all of the other buildings where each value is separated by a space. 
 
 Your goal is this, for the best route possible, print out the total time taken to start with the building on the first line, visit all buildings and then return to the building on the first line. You must also output the order in which you visited the buildings using the name of the buildings as defined in the input file. You must also output the total route cost. In the above example, there are only 6 possible routes. Each of them are shown below with their route cost and total cost at the end:
 
-abc → def → ghi → jkl → abc : 5+3+4+4 = 16
-
-abc → def → jkl → ghi → abc : 5+6+6+6 = 23
-
-... et al
+> abc → def → ghi → jkl → abc : 5+3+4+4 = 16
+> 
+> abc → def → jkl → ghi → abc : 5+6+6+6 = 23
+> 
+> ... et al
 
 Your output file, which should be called output2.txt would contain the following answer:
 
