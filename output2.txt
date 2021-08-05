@@ -1,0 +1,2 @@
+optimal route: bldg1 -> bldg9 -> bldg4 -> bldg12 -> bldg2 -> bldg6 -> bldg8 -> bldg10 -> bldg3 -> bldg11 -> bldg13 -> bldg5 -> bldg7 -> bldg1
+cost for optimal route: 23
