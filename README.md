@@ -13,7 +13,6 @@ There are a few steps needed to make this run on your computer. I have done this
 2. change directory to this project
 3. compile using java 11 or later 
     - You need a version of java plus the JDK. For example, if you use vscode, you can use the extension by Microsoft titled *Java Extension Pack*. You can check if your machine has java (on MacOs) by running the following in the terminal
-
             java -version
 
     - additional info here: [vs code java info](https://code.visualstudio.com/docs/java/java-tutorial)
