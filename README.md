@@ -68,7 +68,7 @@ Your output file, which should be called output2.txt would contain the following
 
 > abc def ghi jkl abc 16
 
-A few constraints were required on the solution below:
+##### A few constraints were required on the solution below:
 
 - In order to get from BldgA to BldgC, the direct path will always be the best path. In other words, if going from BldgA to BldgC, then going directly from BldgA to BldgC will always be faster than to go from BldgA to any other arbitrary building (say BldgB) to BldgC.
 - Your code must split up the computation in a reasonable fashion. Think about the solution space and how the potential solutions can be split up and checked in parallel.
