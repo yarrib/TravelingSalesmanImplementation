@@ -19,7 +19,7 @@ There are a few steps needed to make this run on your computer. I have done this
     - additional info here: [vs code java info](https://code.visualstudio.com/docs/java/java-tutorial)
     - if you indeed do have java and a JDK installed, you'll see something like this:
 
-![screenshot from the shell for checking java version](/images/zsh_screenshot.jpeg)
+&emsp;&emsp;![screenshot from the shell for checking java version](/images/zsh_screenshot.jpeg)
 
     
 4. run the file in the terminal using the following commands:
@@ -30,7 +30,7 @@ There are a few steps needed to make this run on your computer. I have done this
 
 5. the output2.txt file will have the optimal route for 13 buildings, and the shell should output the run time in seconds. *beware* - it might take a bit to run this....anywhere from 30s to 2+ minutes. the output should be something like the below:
 
-![screenshot from the shell for java output](images/zsh_output_example.jpeg)
+&emsp;&emsp;![screenshot from the shell for java output](images/zsh_output_example.jpeg)
 
 
 ---
