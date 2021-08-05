@@ -1,4 +1,5 @@
 # TravelingSalesmanImplementation
+
 TSP Implementation mostly from scratch, long hand (mostly), for a school project
 
 Had some starter class names in the main file for automated test of the code, but nearly all of it is hacked out on my own. Well, including extreme googling and/or duck-duck-go-ing (hmm....?). I did implement Heap's Algorithm to increase runtime efficiency on my local computer, well before running it on cloud resources for formal evaluation.
@@ -7,29 +8,31 @@ Had some starter class names in the main file for automated test of the code, bu
 #### How to use this yourself
 
 There are a few steps needed to make this run on your computer. I have done this both on a mac (via terminal) and on windows (via cmd).
+
 1. open up a terminal or command prompt
 2. change directory to this project
-3. compile using java 11 or later <sub>1</sub>
+3. compile using java 11 or later 
+    - You need a version of java plus the JDK. For example, if you use vscode, you can use the extension by Microsoft titled *Java Extension Pack*. You can check if your machine has java (on MacOs) by running the following in the terminal
+
+        java -version
+
+    - additional info here: [vs code java info](https://code.visualstudio.com/docs/java/java-tutorial)
+    - if you indeed do have java and a JDK installed, you'll see something like this:
+
+![screenshot from the shell for checking java version](/images/zsh_screenshot.jpeg)
+
+    
 4. run the file in the terminal using the following commands:
+
         java FinalRunner
+
     - no arguments are required (see instructions on the problem below)
 
 5. the output2.txt file will have the optimal route for 13 buildings, and the shell should output the run time in seconds. *beware* - it might take a bit to run this....anywhere from 30s to 2+ minutes. the output should be something like the below:
-    ![screenshot from the shell for java output](images/zsh_output_example.jpeg)
 
-    
-
+![screenshot from the shell for java output](images/zsh_output_example.jpeg)
 
 
-<sub>1</sub> -> You need a version of java plus the JDK. For example, if you use vscode, you can use the extension by Microsoft titled *Java Extension Pack*. You can check if your machine has java (on MacOs) by running the following in the terminal
-
-    java -version
-
-if you indeed do have java and a JDK installed, you'll see something like this:
-
-    ![screenshot from the shell for checking java version](/images/zsh_screenshot.jpeg)
-
-additional info here: [vs code java info](https://code.visualstudio.com/docs/java/java-tutorial)
 ---
 
 ** below is the problem that was solved, summarized to obscure the problem as to not exactly give it away **
