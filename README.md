@@ -5,7 +5,7 @@ Traveling Salesman Problem implementation mostly from scratch, long hand (mostly
 Had some starter class names in the main file for automated test of the code, but nearly all of it is hacked out on my own. Well, including extreme googling and/or duck-duck-go-ing (hmm....?). I did implement Heap's Algorithm to increase runtime efficiency on my local computer, well before running it on cloud resources for formal evaluation.
 
 
-#### How to use this yourself
+## How to use this yourself
 
 There are a few steps needed to make this run on your computer. I have done this both on a mac (via terminal) and on windows (via cmd).
 
@@ -37,7 +37,7 @@ There are a few steps needed to make this run on your computer. I have done this
 
 ** below is the problem that was solved, summarized to obscure the problem as to not exactly give it away **
 
-#### the problem
+### the problem
 
 Use Java threads or Python threads. Your Runner class should be stored in a file called FinalRunner.java or FinalRunner.py. Your main method must be in the FinalRunner file.
 
@@ -68,7 +68,7 @@ Your output file, which should be called output2.txt would contain the following
 
 > abc def ghi jkl abc 16
 
-##### A few constraints were required on the solution below:
+#### A few constraints were required on the solution below:
 
 - In order to get from BldgA to BldgC, the direct path will always be the best path. In other words, if going from BldgA to BldgC, then going directly from BldgA to BldgC will always be faster than to go from BldgA to any other arbitrary building (say BldgB) to BldgC.
 - Your code must split up the computation in a reasonable fashion. Think about the solution space and how the potential solutions can be split up and checked in parallel.
