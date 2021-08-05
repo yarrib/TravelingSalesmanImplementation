@@ -29,6 +29,7 @@ if you indeed do have java and a JDK installed, you'll see something like this:
 
     ![screenshot from the shell for checking java version](/images/zsh_screenshot.jpeg)
 
+additional info here: [vs code java info](https://code.visualstudio.com/docs/java/java-tutorial)
 ---
 
 ** below is the problem that was solved, summarized to obscure the problem as to not exactly give it away **
