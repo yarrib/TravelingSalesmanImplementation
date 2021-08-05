@@ -1,6 +1,6 @@
-# TravelingSalesmanImplementation
+# My TSP hack together :)
 
-TSP Implementation mostly from scratch, long hand (mostly), for a school project
+Traveling Salesman Problem implementation mostly from scratch, long hand (mostly), for a school project
 
 Had some starter class names in the main file for automated test of the code, but nearly all of it is hacked out on my own. Well, including extreme googling and/or duck-duck-go-ing (hmm....?). I did implement Heap's Algorithm to increase runtime efficiency on my local computer, well before running it on cloud resources for formal evaluation.
 
